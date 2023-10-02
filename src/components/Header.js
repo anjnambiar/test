@@ -2,34 +2,19 @@ import React, { useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
-  faGithub,
   faLinkedin,
-  faMedium,
-  faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack } from "@chakra-ui/react";
 
 const socials = [
   // {
-  //   icon: faEnvelope,
-  //   url: "mailto: hello@example.com",
+  //   icon: faGithub,
+  //   url: "https://github.com",
   // },
-  {
-    icon: faGithub,
-    url: "https://github.com",
-  },
   {
     icon: faLinkedin,
     url: "https://www.linkedin.com",
   },
-  // {
-  //   icon: faMedium,
-  //   url: "https://medium.com",
-  // },
-  // {
-  //   icon: faStackOverflow,
-  //   url: "https://stackoverflow.com",
-  // },
 ];
 
 const Header = () => {
@@ -65,7 +50,7 @@ const Header = () => {
         >
           <nav>
             <HStack>
-              {/* Add social media links based on the `socials` data */
+              {
                 socials.map((social)=>{
                   return (
                     <a href={social.url}> 
@@ -78,10 +63,9 @@ const Header = () => {
           </nav>
           <nav>
             <HStack spacing={8}>
-             {/* Add links to Projects and Contact me section */} 
                 return(
+                  <a href="/#">Home</a>
                   <a href="/#projects" onClick={handleClick("projects")}>Projects</a>
-                 {/* <a href="/#contact-me" onClick={handleClick("contactme")}>Contact Me</a> */}
                 )
             </HStack>
           </nav>
