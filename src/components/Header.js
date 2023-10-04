@@ -13,7 +13,7 @@ const socials = [
   // },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/in/anjana-padmanabhan",
   },
 ];
 
@@ -53,7 +53,7 @@ const Header = () => {
               {
                 socials.map((social)=>{
                   return (
-                    <a href={social.url}> 
+                    <a href={social.url} target="_blank">
                         <FontAwesomeIcon icon={social.icon} size="2x" />
                     </a>
                   )

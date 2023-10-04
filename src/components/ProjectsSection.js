@@ -16,7 +16,7 @@ const projects = [
       description:
         "Developed some basic calculator functionalities using vanilla javascript.",
       getImageSrc: () => require("../images/calculator_logo.png"),
-      link: "https://github.com/anjnambiar/littlelemon",
+      link: "https://github.com/anjnambiar/Calculator",
   },
 ];
 

@@ -14,7 +14,7 @@ const Card = ({ title, description, imageSrc, link }) => {
                 <Heading as='h2' size='s' p='5' alignContent='center'>{title}</Heading>
                 <Text size='xs' p='5'>{description}</Text>
                 <a href = {link} target="_blank" style={{color:'#44A7BA'}}
-                  alt="Little Lemon GitHub - Anjana">Little Lemon GitHub - Anjana</a>
+                  alt="">GitHub - {title}</a>
               </VStack>
             </HStack>
           </Box>
