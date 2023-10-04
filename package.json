@@ -2,7 +2,7 @@
   "name": "projectportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anjnambiar.github.io/test",
+  "homepage": "https://anjnambiar.github.io/Portfolio_Anjana",
   "dependencies": {
     "@chakra-ui/react": "^2.6.0",
     "@emotion/react": "^11.10.8",
