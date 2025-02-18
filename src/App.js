@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <ChakraProvider>
-        <main>
+        <main width={{base: "0em", sm: "30em", md: "48em", lg: "62em", xl: "80em"}}>
           <Header />
           <LandingSection />
           <ProjectsSection />
